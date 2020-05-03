@@ -1,0 +1,32 @@
+@charset "UTF-8";
+div#content{	
+	width: 900px;
+    margin: auto;
+    height:auto;
+	background: red;   
+}
+ul{
+	list-style: none;	
+}
+img{
+  border:solid 1px black;
+  margin-top:30px;
+  width: 100px;
+  height:200px;
+}
+.book{
+	text-align:center;
+	margin:30px;
+	float: left;
+	width:200px;
+	height:350px;
+	border:solid 2px red;
+}
+div#fixContent{
+	position: fixed;
+	left:1150px;
+	width:100px;
+	height:200px;
+
+}
+

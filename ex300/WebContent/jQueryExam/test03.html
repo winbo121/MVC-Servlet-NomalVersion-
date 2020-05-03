@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script
+	src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#plus").click(function() {
+			var n1 = $("#num1").val();
+			var n2 = $("#num2").val();
+			// 문자 => 숫자 변환
+			var num1 = Number(n1);//parseInt(n1);
+			var num2 = Number(n2);//parseInt(n2);
+			var result = num1 + num2;
+			
+			$("#result").val(result);
+			
+		});
+		
+		
+		
+	});
+	
+
+	
+</script>
+</head>
+<body>
+	<input type="text" id="num1" size="5" /> +
+	<input type="text" id="num2" size="5" /> =
+	<input type="text" id="result" size="7" />
+	<br>
+	<input type="button" id="plus" value="합" />
+	
+	
+</body>
+</html>
+
